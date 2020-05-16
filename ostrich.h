@@ -1,7 +1,7 @@
 #ifndef OSTRICH_H
 #define OSTRICH_H
-# include <iostream>
-# include "flightless_bird.h"
+#include <iostream>
+#include "flightless_bird.h"
 
 using namespace std;
 

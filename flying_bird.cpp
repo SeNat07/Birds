@@ -2,16 +2,14 @@
 
 using namespace std;
 
-FlyingBird::FlyingBird()
-{
+FlyingBird::FlyingBird() {
 	setCanFly(true);
 }
 
 string FlyingBird::getCanFly() {
 	if (canFly) {
 		return "Да";
-	}
-	else {
+	} else {
 		return "Нет";
 	}
 }

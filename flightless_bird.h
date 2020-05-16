@@ -6,13 +6,12 @@
 class FlightlessBird : public Bird {
 	public:
 		FlightlessBird();
+
 		string getCanFly();
 		void setCanFly(bool canFlyValue) { canFly = canFlyValue; }
 
 	private:
 		bool canFly;
-
 };
-
 #endif
 

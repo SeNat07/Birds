@@ -8,12 +8,11 @@ using namespace std;
 class Bird {
 	public:
 		Bird();
+
 		string getSpecies() { return species; }
 		void setSpecies(string speciesValue) { species = speciesValue; }
-		
+
 	private:
 		string species;
-
 };
-
 #endif
